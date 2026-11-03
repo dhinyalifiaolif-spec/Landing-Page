@@ -1,0 +1,23 @@
+.hero {
+  background: linear-gradient(rgba(32, 187, 218, 0.85), rgba(32, 187, 218, 0.85)), url('Gambarhero.jpg');
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+  background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+      padding: 100px 0;
+}
+
+h1 {
+  font-family: montserrat;
+}
+
+body {
+  font-size: clamp(0.875rem, 1vw + 0.5rem, 1rem);
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 85%; /* Semua teks otomatis turun 15% saat dibuka di HP */
+  }
+}
